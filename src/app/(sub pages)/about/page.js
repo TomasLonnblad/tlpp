@@ -1,5 +1,4 @@
 import Image from "next/image";
-import bg from "../../../../public/background/about-background.png";
 import RenderModel from "@/components/RenderModel";
 // import HatModel from "@/components/models/HatModel";
 import AboutDetails from "@/components/about";
@@ -16,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Image
-        src={bg}
+        src="/background/about-background.png"
         priority
         sizes="100vw"
         alt="Next.js Portfolio website's about page background image"

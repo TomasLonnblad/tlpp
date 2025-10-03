@@ -1,5 +1,4 @@
 import Image from "next/image";
-import bg from "../../../../public/background/contact-background.png";
 import Form from "@/components/contact/Form";
 
 export const metadata = {
@@ -10,7 +9,7 @@ export default function Contact() {
   return (
     <>
       <Image
-        src={bg}
+        src="/background/contact-background.png"
         alt="Next.js Portfolio website's contact page background image"
         priority
         sizes="100vw"
